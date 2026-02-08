@@ -310,7 +310,7 @@ async fn start_bot(_debug: bool, prefix: String, channel_override: Option<String
     client
         .send_message(
             &config.channel_name,
-            "SOM Chatbot is now online!",
+            "Chatbot is now online!",
             &config.bot_username,
         )
         .await?;
